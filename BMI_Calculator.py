@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 backgroundColor = "#F0F0F0"
-exercise = Image.open("C:\\Users\\HP\\OneDrive\\Pictures\\My BMI picture.jpg")
+exercise = Image.open("My BMI picture.jpg")
 
 st.title(':white[Mitchelle\'s BMI Calculator]')
 st.image(exercise)
